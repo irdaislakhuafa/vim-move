@@ -12,6 +12,13 @@ normal mode:
     <A-h>   Move current character/selection left
     <A-l>   Move current character/selection right
 
+normal mode like vs code: 
+    
+    <A-up>   Move current line/selection up
+    <A-down>   Move current line/selection down
+    <A-left>   Move current character/selection left
+    <A-right>   Move current character/selection right
+
 The mappings can be prefixed with a count, e.g. `5<A-k>` will move the selection
 up by 5 lines.
 
