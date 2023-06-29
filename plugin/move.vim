@@ -295,4 +295,15 @@ if g:move_map_keys
     execute 'nmap' s:MoveKey('k') '<Plug>MoveLineUp'
     execute 'nmap' s:MoveKey('h') '<Plug>MoveCharLeft'
     execute 'nmap' s:MoveKey('l') '<Plug>MoveCharRight'
+
+    " set keymaps looks vs code
+    execute 'vmap' s:VisualMoveKey('down') '<Plug>MoveBlockDown'
+    execute 'vmap' s:VisualMoveKey('up') '<Plug>MoveBlockUp'
+    execute 'vmap' s:VisualMoveKey('left') '<Plug>MoveBlockLeft'
+    execute 'vmap' s:VisualMoveKey('right') '<Plug>MoveBlockRight'
+
+    execute 'nmap' s:MoveKey('down') '<Plug>MoveLineDown'
+    execute 'nmap' s:MoveKey('up') '<Plug>MoveLineUp'
+    execute 'nmap' s:MoveKey('left') '<Plug>MoveCharLeft'
+    execute 'nmap' s:MoveKey('right') '<Plug>MoveCharRight'
 endif
